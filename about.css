@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color:rgba(250, 10, 10, 0.801) ;
+}
+marquee{color: white;
+font-size: 20px;
+}
+.about-us{
+padding: 80px 0px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.row{
+    display: flex;
+  flex-wrap: wrap;
+
+}
+.flex{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+}
+.about-us h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+.about-us h3{
+    font-size: 22px;
+    color: black;
+    margin-bottom: 8px;
+
+}
+.about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 20px;
+
+}
+.about-us img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+.social-links{
+margin-bottom: 20px;
+
+}
+.social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+transition: all 0.4s ease;
+
+}
+
+.social-links a :hover{
+    transform: translateY(-3px);
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #333;
+    transition: all 0.4s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+
+
+

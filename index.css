@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{   
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+.color{
+    background-color: black;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav h1{
+    font-size: 40px;
+    color: rgba(250, 10, 10, 0.801);
+    border-bottom: 5px solid rgba(250, 10, 10, 0.801) ;
+    border-radius: 40px;
+    margin-top: 50px;
+
+    
+}
+.main-div .food-text{
+font-size: 60px;
+color: white;
+margin-left: 40px;
+margin-top: 30px;
+
+
+}
+
+.main-div .food-text h1{
+    font-size: 120px;
+    margin-top: 50px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 28px;
+
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+    
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.links :hover{
+    color:rgba(250, 10, 10, 0.801) ;
+    text-decoration: underline;
+
+}
+.links{
+    margin-top: 30px;
+}
+
+
+
+.main-image img{
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 600px;
+    height: 400px;
+    border-radius: 2px solid rgba(250, 10, 10, 0.801);
+}
+.food-text button{
+    width: 200px;
+    height: 60px;
+    background-color:rgba(250, 10, 10, 0.801) ;
+    color: white;
+    font-size: 28px;
+    border-radius: 20px;
+
+}
+#order-now {
+    text-decoration: none;
+    color: white;
+
+}
+
+.food-text button:hover {
+    background-color: black;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+   cursor: pointer;
+}
+marquee{
+    color: white;
+    font-size: 20px;
+background-color:  rgba(250, 10, 10, 0.801); 
+position: fixed;
+top: 0px;
+
+}
+
+/* footer css starts from here  */
+
+footer{
+    background-color: #111;
+    
+
+}
+.foodcontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    height: 900px;
+
+}
+
+.socialmediaicons{
+    display: flex;
+    justify-content: center;
+}
+.socialmediaicons a {
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialmediaicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+    
+
+}
+.socialmediaicons a :hover{
+    background-color: #111;
+    transition: 0.5s;
+} 
+.socialmediaicons a :hover i {
+    color: white;
+   
+    transition: 0.5s;
+}
+.footernavbar{
+    margin: 30px 0px;
+
+}
+
+.footernavbar ul {
+    display: flex;
+    justify-content:center ;
+}
+
+.footernavbar ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernavbar ul li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+    color: rgba(250, 10, 10, 0.801);
+} 
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    justify-content: center;
+}
+.footer-bottom p{
+color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    margin: 0px 5px;
+}
+.first-page-footer
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
